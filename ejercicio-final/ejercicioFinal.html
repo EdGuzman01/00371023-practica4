@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Final</title>
+    <link rel="stylesheet" href="ejercicioFinal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recordatorio de Actividades Semanales</h1>
+        
+        <div class="input-section">
+            <label for="diaSemana">Seleccione el día de la semana:</label>
+            <select id="diaSemana">
+                <option value="">Seleccione un día</option>
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miércoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+                <option value="sabado">Sábado</option>
+                <option value="domingo">Domingo</option>
+            </select>
+            
+            <button id="btnRecordatorio">Mostrar Recordatorio</button>
+        </div>
+        
+        <div id="resultado" class="resultado">
+            <p>Seleccione un día de la semana para ver su actividad.</p>
+        </div>
+    </div>
+    
+    <script src="./ejercicioFinal.js"></script>
+</body>
+</html>
