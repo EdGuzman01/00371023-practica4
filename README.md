@@ -108,12 +108,3 @@ for (inicialización; condición; actualización) {
 ```
 
 
-
-
-
-
-
-
-**Carnet:** 0001234  
-**Sección:** 1  
-**Fecha:** 2025
